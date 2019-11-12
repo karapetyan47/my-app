@@ -1,0 +1,26 @@
+ul {
+  padding: 0;
+  margin: 0;
+  margin-top: 75px;
+  li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: #f39c12;
+    height: 10%;
+    box-sizing: border-box;
+    padding: 10px 0 10px 30px;
+    transition: 0.2s;
+  }
+  li:hover {
+    background: #f39c12;
+    color: whitesmoke;
+    i {
+      font-size: 20px;
+    }
+  }
+  i {
+    font-size: 17px;
+    margin-right: 7px;
+  }
+}
